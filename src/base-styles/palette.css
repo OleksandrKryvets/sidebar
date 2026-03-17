@@ -1,0 +1,33 @@
+@layer base {
+  :root {
+    /* Colors */
+    --white: #ffffff;
+    --black: #000000;
+    --gray-light: #f2f4f6;
+    --gray-mid: #cad4dd;
+    --gray-dark: #0000000D;
+
+    --background: var(--white);
+    --text-color: var(--black);
+    --overlay: #000000B2;
+
+    --primary-btn: var(--black);
+    --primary-btn-color: var(--white);
+
+    --light-btn: var(--gray-light);
+
+    --accent-border: var(--black);
+    --border: var(--gray-light);
+    --secondary-border: var(--gray-dark);
+
+    
+    --input: var(--white);
+    --textarea-background: var(--input);
+    --textarea-color: var(--text-color);
+    --textarea-placeholder-color: var(--text-color);
+    --textarea-border: var(--border);
+
+    --sans: 'Italian Plate No2 Expanded', system-ui, sans-serif;
+    --scrollbar-thumb: var(--gray-mid);
+  }
+}
