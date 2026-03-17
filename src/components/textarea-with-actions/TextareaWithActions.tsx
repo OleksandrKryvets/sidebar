@@ -3,7 +3,7 @@ import { Textarea } from '@/components/ui/textarea'
 import { cn } from '@/lib/utils'
 import { UndoRedoButtons } from './UndoRedoButtons'
 
-type ITextareaWithActionsProps = {
+interface ITextareaWithActionsProps {
   id?: string
   label?: string
   value: string
